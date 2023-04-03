@@ -1,0 +1,116 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "price": 34.99,
+      "title": "koynek",
+      "img": "./img/Sarucka.jpg"
+    },
+    {
+      "id": "2",
+      "price": 279.99,
+      "title": "airpods",
+      "img": "./img/airpods.jpg"
+    },
+    {
+      "id": "3",
+      "price": 35.5,
+      "title": "saç maşını",
+      "img": "./img/Hb22a794bc97942a580ded66fa62a594dl.jpg"
+    },
+    {
+      "id": "4",
+      "price": 29.99,
+      "title": "eynək ",
+      "img": "./img/product5.jpg"
+    },
+    {
+      "id": "5",
+      "price": 15,
+      "title": "papaq",
+      "img": "./img/product6.jpg"
+    },
+    {
+      "id": "6",
+      "price": 39.99,
+      "title": "canta",
+      "img": "./img/product7.jpg"
+    },
+    {
+      "id": "7",
+      "price": 850,
+      "title": "televizor",
+      "img": "./img/tv.jpg"
+    },
+    {
+      "id": "8",
+      "price": 60,
+      "title": "utu",
+      "img": "./img/utu.jpg"
+    },
+    {
+      "id": "6",
+      "price": 38,
+      "title": "canta",
+      "img": "./img/product7.jpg"
+    },
+    {
+      "id": "9",
+      "price": 40,
+      "title": "nike",
+      "img": "./img/nike-air-max-2021.jpg"
+    },
+    {
+      "id": "10",
+      "price": 1850,
+      "title": "siemens",
+      "img": "./img/Siemens-KG56NHIF0N-buzdolabi.jpg"
+    },
+    {
+      "id": "11",
+      "price": 790,
+      "title": "bosch",
+      "img": "./img/bosch.jpg"
+    },
+    {
+      "id": "12",
+      "price": 850,
+      "title": "televizor2",
+      "img": "./img/tv.jpg"
+    },
+    {
+      "id": "13",
+      "price": 54.99,
+      "title": "utü2",
+      "img": "./img/utu.jpg"
+    },
+    {
+      "id": "14",
+      "price": 45.5,
+      "title": "masinka",
+      "img": "./img/Hb22a794bc97942a580ded66fa62a594dl.jpg"
+    },
+    {
+      "id": "15",
+      "price": 990,
+      "title": "paltaryuyan",
+      "img": "./img/bosch.jpg"
+    }
+  ],
+  "inCartIds": [
+    {
+      "price": 279.99,
+      "title": "airpods",
+      "img": "./img/airpods.jpg",
+      "quantity": 1,
+      "id": 1
+    },
+    {
+      "price": 35.5,
+      "title": "saç maşını",
+      "img": "./img/Hb22a794bc97942a580ded66fa62a594dl.jpg",
+      "quantity": 1,
+      "id": 2
+    }
+  ]
+}

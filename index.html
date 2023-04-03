@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./app.css" />
+  <title>Online Magaza</title>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+</head>
+
+<body>
+  <!--Header--->
+  <header>
+    <!--Nav-->
+    <div class="nav container">
+      <a href="#" class="logo">Online Mağaza</a>
+      <div class="topnav">
+        <!-- Search bar -->
+        <div class="search-bar">
+          <input type="text" id="search-input" placeholder="Məhsul adı ilə axtarın" />
+          <button class="btnn"><i class="fas fa-search"></i></button>
+        </div>
+      </div>
+
+      <!--Cart-icon-->
+      <div class="card-btn">
+        <i id="cart-icon" class="fas fa-shopping-cart"></i>
+        <span class="card-quantity">0</span>
+      </div>
+
+      <!--Cart-->
+      <div class="cart">
+        <h2 class="cart-title">Mənim Səbətim</h2>
+        <!--Content-->
+        <div class="cart-content"></div>
+        <!--Total-->
+        <div class="total">
+          <div class="total-title">Ümumi:</div>
+          <div class="total-price">0 Azn</div>
+        </div>
+        <!--Buy Button-->
+        <button onclick="buyButtonClicked()" type="button" class="btn-buy">
+          İndi Al
+        </button>
+        <!--Cart Close-->
+        <i class="bx bx-x" id="close-cart"></i>
+      </div>
+    </div>
+  </header>
+  <!--Shop-->
+  <section class="shop container">
+    <h2 class="section-title">Mağaza Mehsulları</h2>
+    <!--Content-->
+    <div class="shop-content"></div>
+  </section>
+
+
+  <script src="./app.js"></script>
+</body>
+
+</html>
